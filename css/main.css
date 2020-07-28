@@ -102,6 +102,9 @@ textarea {
     src: url('/font/Muli.ttf');
     }
 
+body{
+ background-image: url(/img/fond.png);
+}
   
 
 /* Utility classes */
@@ -116,8 +119,27 @@ textarea {
 
 /* ~~~~~~ HEADER ~~~~~~ */
 
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+nav{
+  position: relative;
+  
+}
 
+.navSmartphoneTablet{
+  position: absolute;
+  left: 20px;
+  top: auto;
+}
+
+.logo{
+  height: 40px;
+  width: 116px;
+}
 
 
 
@@ -128,8 +150,17 @@ hr{
    color: #E9E8EE;
    background-color: #E9E8EE;
    border: none;
+   margin: 0;
 }
 
+h1{
+  color: #162049;
+  font-family: "Gotham Black Regular";
+}
+
+main{
+  padding:0 15px;
+}
 
 /* ==========================================================================
    Helper classes
