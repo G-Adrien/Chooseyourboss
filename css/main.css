@@ -145,21 +145,110 @@ nav{
      margin: 0;
      padding: 0;
   }
-header{
+
+header article{
   padding:0 15px;
+  padding-top: 50px;
+}
+
+h1{
+  color: #162049;
+  font-family: "Gotham Black Regular";
+  font-size: 46px;
+  line-height: 1;
+  margin-top: 0;
+}
+
+header p{
+  font-family: "Muli";
+  font-size: 26px;
+  color: #212121;
+  margin-bottom: 0;
+}
+
+header a{
+  background-color: #4D22FF;
+  color: white;
+  border-radius: 24px;
+  padding:5px 25px;
+  font-family: "Muli";
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-size:  26px;
+  margin: 50px 0;
+
+}
+
+
+.viewPort{
+  height: 100vh;
+}
+
+.btnPos{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  
 }
 
 /* ~~~~~~ MAIN ~~~~~~ */
 
 
-h1{
-  color: #162049;
+
+
+
+.stat{
+  background-color: #2b345d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.stat div p:first-child{
+  color: #fff;
+  font-size: 36px;
   font-family: "Gotham Black Regular";
 }
 
-main{
-  padding:0 15px;
+.stat div p:last-of-type{
+  color: #2fd;
+  font-size: 20px;
+  font-family: "Gotham Black Regular";
+  text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
