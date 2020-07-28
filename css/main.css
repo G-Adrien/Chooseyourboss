@@ -87,6 +87,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   /* ~~~~~~~~~~ General rules ~~~~~~~~~~~ */
+   
+   @font-face { font-family: 'Gotham Black Regular';
+     src: url('/font/Gotham\ Black\ Regular.ttf');
+     }
+
+   /* *{
+     font-family:'Gotham Black Regular';
+   } */
+
+   @font-face { font-family: 'Muli';
+    src: url('/font/Muli.ttf');
+    }
+
+  
+
+/* Utility classes */
+
+.muli{
+  font-family: 'Muli';
+}
+
+.gotham{
+  font-family: 'Gotham Black Regular';
+}
+
+/* ~~~~~~ HEADER ~~~~~~ */
+
+
+
+
+
+
+/* ~~~~~~ MAIN ~~~~~~ */
+
+hr{
+   height: 2px;
+   color: #E9E8EE;
+   background-color: #E9E8EE;
+   border: none;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
