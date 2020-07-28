@@ -87,6 +87,169 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   /* ~~~~~~~~~~ General rules ~~~~~~~~~~~ */
+   
+   @font-face { font-family: 'Gotham Black Regular';
+     src: url('/font/Gotham\ Black\ Regular.ttf');
+     }
+
+   /* *{
+     font-family:'Gotham Black Regular';
+   } */
+
+   @font-face { font-family: 'Muli';
+    src: url('/font/Muli.ttf');
+    }
+
+body{
+ background-image: url(/img/fond.png);
+}
+  
+
+/* Utility classes */
+
+.muli{
+  font-family: 'Muli';
+}
+
+.gotham{
+  font-family: 'Gotham Black Regular';
+}
+
+/* ~~~~~~ NAV ~~~~~~ */
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menuSmartphoneTablet{
+  position: absolute;
+  left: 20px;
+}
+
+.logo{
+  height: 40px;
+  width: 116px;
+}
+
+/* ~~~~~~ HEADER ~~~~~~ */
+  hr{
+     height: 2px;
+     color: #E9E8EE;
+     background-color: #E9E8EE;
+     border: none;
+     margin: 0;
+     padding: 0;
+  }
+
+header article{
+  padding:0 15px;
+  padding-top: 50px;
+}
+
+h1{
+  color: #162049;
+  font-family: "Gotham Black Regular";
+  font-size: 46px;
+  line-height: 1;
+  margin-top: 0;
+}
+
+header p{
+  font-family: "Muli";
+  font-size: 26px;
+  color: #212121;
+  margin-bottom: 0;
+}
+
+header a{
+  background-color: #4D22FF;
+  color: white;
+  border-radius: 24px;
+  padding:5px 25px;
+  font-family: "Muli";
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-size:  26px;
+  margin: 50px 0;
+
+}
+
+
+.viewPort{
+  height: 100vh;
+}
+
+.btnPos{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* ~~~~~~ MAIN ~~~~~~ */
+
+
+
+
+
+.stat{
+  background-color: #2b345d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.stat div p:first-child{
+  color: #fff;
+  font-size: 36px;
+  font-family: "Gotham Black Regular";
+}
+
+.stat div p:last-of-type{
+  color: #2fd;
+  font-size: 20px;
+  font-family: "Gotham Black Regular";
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
