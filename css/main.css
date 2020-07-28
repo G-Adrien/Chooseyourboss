@@ -117,23 +117,18 @@ body{
   font-family: 'Gotham Black Regular';
 }
 
-/* ~~~~~~ HEADER ~~~~~~ */
+/* ~~~~~~ NAV ~~~~~~ */
 
-header{
+nav{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-nav{
   position: relative;
-  
 }
 
-.navSmartphoneTablet{
+.menuSmartphoneTablet{
   position: absolute;
   left: 20px;
-  top: auto;
 }
 
 .logo{
@@ -141,17 +136,21 @@ nav{
   width: 116px;
 }
 
-
+/* ~~~~~~ HEADER ~~~~~~ */
+  hr{
+     height: 2px;
+     color: #E9E8EE;
+     background-color: #E9E8EE;
+     border: none;
+     margin: 0;
+     padding: 0;
+  }
+header{
+  padding:0 15px;
+}
 
 /* ~~~~~~ MAIN ~~~~~~ */
 
-hr{
-   height: 2px;
-   color: #E9E8EE;
-   background-color: #E9E8EE;
-   border: none;
-   margin: 0;
-}
 
 h1{
   color: #162049;
