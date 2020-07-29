@@ -94,10 +94,6 @@ textarea {
      src: url('/font/Gotham\ Black\ Regular.ttf');
      }
 
-   /* *{
-     font-family:'Gotham Black Regular';
-   } */
-
    @font-face { font-family: 'Muli';
     src: url('/font/Muli.ttf');
     }
@@ -109,11 +105,11 @@ body{
 
 /* Utility classes */
 
-.muli{
+p{
   font-family: 'Muli';
 }
 
-.gotham{
+h1, h2, h3, h4{
   font-family: 'Gotham Black Regular';
 }
 
@@ -146,27 +142,25 @@ nav{
      padding: 0;
   }
 
-header article{
+.topSite article{
   padding:0 15px;
   padding-top: 50px;
 }
 
 h1{
   color: #162049;
-  font-family: "Gotham Black Regular";
   font-size: 46px;
   line-height: 1;
   margin-top: 0;
 }
 
-header p{
-  font-family: "Muli";
+.topSite p{
   font-size: 26px;
   color: #212121;
   margin-bottom: 0;
 }
 
-header a{
+.btn{
   background-color: #4D22FF;
   color: white;
   border-radius: 24px;
@@ -177,8 +171,12 @@ header a{
   vertical-align: middle;
   font-size:  26px;
   margin: 50px 0;
-
 }
+
+.btn:hover{
+  opacity: 0.5;
+}
+
 
 
 .viewPort{
@@ -196,7 +194,7 @@ header a{
 
 
 
-
+/*  "stat"  */
 
 .stat{
   background-color: #2b345d;
@@ -204,23 +202,46 @@ header a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding: 50px 0;
+}
+
+.stat div p{
+  margin:0 0 10px 0;
+  font-family: "Gotham Black Regular";
+
 }
 
 .stat div p:first-child{
   color: #fff;
   font-size: 36px;
-  font-family: "Gotham Black Regular";
+  
 }
 
 .stat div p:last-of-type{
   color: #2fd;
   font-size: 20px;
-  font-family: "Gotham Black Regular";
   text-align: center;
 }
 
+/*  "algo"  */
 
+.algo{
+  color: #162049;
+  background-color: #eee9fa;
+  padding:0 15px;
+
+}
+
+.algo header{
+  text-align: center;
+}
+
+.algo header h2{
+  font-size: 36px;
+}
+.algo header p{
+  font-size: 26px;
+}
 
 
 
