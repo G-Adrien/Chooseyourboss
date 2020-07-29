@@ -91,15 +91,15 @@ textarea {
    /* ~~~~~~~~~~ General rules ~~~~~~~~~~~ */
    
    @font-face { font-family: 'Gotham Black Regular';
-     src: url('/font/Gotham\ Black\ Regular.ttf');
+     src: url('../font/Gotham\ Black\ Regular.ttf');
      }
 
    @font-face { font-family: 'Muli';
-    src: url('/font/Muli.ttf');
+    src: url('../font/Muli.ttf');
     }
 
 body{
- background-image: url(/img/fond.png);
+ background-image: url(../img/fond.png);
 }
   
 
@@ -343,8 +343,15 @@ width: 200px;
 
 /*  "salary"  */
 
-
-
+.salary{
+  background-color: #eeeeee;
+  margin: 30px;
+  padding: 30px 15px;
+  color: #162049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
