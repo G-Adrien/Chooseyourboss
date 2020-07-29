@@ -194,7 +194,13 @@ h1{
 }
 
 #subs{
-  display: none;
+  position: fixed;
+  z-index: 2;
+  background-color: #4d22ff;
+}
+
+#subs a{
+
 }
 
 /* ~~~~~~ MAIN ~~~~~~ */
@@ -330,24 +336,24 @@ width: 200px;
 
 /*  "salary"  */
 
-.salary{
+#salary{
   background-color: #eeeeee;
   margin: 30px;
   padding: 30px 20px;
   color: #162049;
 }
 
-.salary h2{
+#salary h2{
   font-size: 36px;
   line-height: 1.1;
   margin-top: 0;
 }
 
-.salary h3{
+#salary h3{
   font-size: 18px;
 }
 
-.salary p{
+#salary p{
   font-size: 16px;
 }
 
