@@ -26,28 +26,31 @@
 <body>
 
   <!-- Add your site or application content here -->
-<div class="viewPort">
-  <nav>
-    <a class="menuSmartphoneTablet" href="#">
+<div id="viewPort">
+  <nav class="flex-Jc-Ac">
+    <a id="menuSmartphoneTablet" href="#">
       <img src="img/burger-menu.svg" alt="Icone menu">
     </a>
     <figure >
-      <img class="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
+      <img id="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
     </figure>
   </nav>
-  <header class="topSite">
+  <header id="topSite">
     <hr>
     <article>
       <h1>Le matching parfait est aussi professionnel</h1>
       <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
-      <div class="btnPos">
+      <div id="headerBtn" >
         <a class="btn" href="#">Je m'inscris</a>
       </div>
     </article>
+    <div id="subs">
+        <a href="#">JE M'INSCRIS</a>
+    </div>
   </header>
 </div>
 <main>
-  <section class="stat">
+  <section id="stat">
     <div>
       <p>152 000</p>
       <p>Candidats</p>
@@ -61,44 +64,44 @@
       <p>Recruteurs</p>
     </div>
   </section>
-  <section class="algo">
+  <section id="algo">
     <header>
       <h2>L'algorithme travaille pour toi</h2>
       <p>Accède à des matchings personnalisés tout en restant protégé et anonyme</p>
     </header>
-    <div class="skill">
+    <div id="skill">
       <div>
-        <figure>
+        <figure class="flex-Jc-Ac">
           <img src="img/personnalisation.png" alt="Illustration section texte personnalisation, représentant un robot et la lettre A avec un désign graphique.">
         </figure>
         <h3>Personnalisation</h3>
         <p>Notre algorithme de matching sélectionne pour toi les projets qui te correspondent vraiment.</p>
       </div>
       <div>
-        <figure>
+        <figure class="flex-Jc-Ac">
           <img src="img/3en1.png" alt="Illustration section texte 3 en 1. Représentation simpliste d'un bonhomme avec dans les bras une pancarte avec un coeur dessus.">
         </figure>
         <h3>3 en 1</h3>
         <p>Tu as le pouvoir d'accepter les matchings, les demandes directes ou postuler directement aux offres qui te plaisent.</p>
       </div>
       <div>
-        <figure>
+        <figure class="flex-Jc-Ac">
           <img src="img/anonymat.png" alt="Illustration section texte Anonymat. Représentation d'un oeil avec une loupe et des graphiques à côté.">
         </figure>
         <h3>Anonymat</h3>
         <p>Ton profil reste protégé et anonyme jusqu'à ta mise en relation avec le recruteur de ton choix, évitant ainsi toute sur-sollicitation.</p>
       </div>
     </div>
-    <div class="skillBtn">
+    <div id="skillBtn">
       <a class="btn" href="#">J'accède à mes matchings</a>
     </div>
   </section>
-  <section class="jobs">
+  <section id="jobs">
     <header>
       <h2>Tous les jobs informatiques et numériques</h2>
       <p>Découvre les dernières offres d'emploi tech', produit, data, marketing et design</p>
     </header>
-    <div class="allJobs">
+    <div id="allJobs">
       <a href="#">
         <figure>
           <img src="img/tech.svg" alt="Illustration lien cliquable: Tech. Représentation d'un robot joyeux, d'un casque audio et d'un écran d'ordinateur.">
@@ -130,16 +133,18 @@
         <p>Création</p>
       </a>
     </div>
-    <div class="poSjobsBtn">
-      <a class="btn jobsBtn" href="#">Je découvre toutes les offres</a>
+    <div class="poSjobsBtn flex-Jc-Ac">
+      <a class="btn" id="jobsBtn" href="#">Je découvre toutes les offres</a>
     </div>
   </section>
-  <section class="salary">
-    <div class="card">
+  <section id="salary" class="flex-Jc-Ac" >
+    <div id="card">
       <h2>Mérites-tu un meilleur salaire ?</h2>
       <h3>Baromètre des salaires IT</h3>
       <p>Découvre le salaire des différents métiers informatiques et numériques par niveau d'expérience et localisation.</p>
-      <a class="btn" href="#">Je découvre mon salaire</a>
+      <div class="flex-Jc-Ac">
+        <a class="btn" id="cardBtn" href="#">Je découvre mon salaire</a>
+      </div>
     </div>
   </section>
 </main>

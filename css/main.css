@@ -113,24 +113,44 @@ h1, h2, h3, h4{
   font-family: 'Gotham Black Regular';
 }
 
-/* ~~~~~~ NAV ~~~~~~ */
-
-nav{
+.flex-Jc-Ac{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  background-color: #4D22FF;
+  color: white;
+  border-radius: 24px;
+  padding:5px 25px;
+  font-family: "Muli";
+  text-align: center;
+}
+
+.btn:hover{
+  opacity: 0.5;
+}
+/* ~~~~~~ NAV ~~~~~~ */
+
+nav{
   position: relative;
 }
 
-.menuSmartphoneTablet{
+#menuSmartphoneTablet{
   position: absolute;
   left: 20px;
 }
 
-.logo{
+#logo{
   height: 40px;
   width: 116px;
 }
+
 
 /* ~~~~~~ HEADER ~~~~~~ */
   hr{
@@ -142,7 +162,7 @@ nav{
      padding: 0;
   }
 
-.topSite article{
+#topSite article{
   padding:0 15px;
   padding-top: 50px;
 }
@@ -154,51 +174,48 @@ h1{
   margin-top: 0;
 }
 
-.topSite p{
+#topSite p{
   font-size: 26px;
   color: #212121;
   margin-bottom: 0;
 }
-.topSite a{
+#topSite a{
   font-size:  26px;
   margin: 50px 0;
 }
 
-.btn{
-  background-color: #4D22FF;
-  color: white;
-  border-radius: 24px;
-  padding:5px 25px;
-  font-family: "Muli";
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.btn:hover{
-  opacity: 0.5;
-}
-
-
-
-.viewPort{
+#viewPort{
   height: 100vh;
 }
 
-.btnPos{
-  padding: 0;
+#headerBtn{
   display: flex;
-  align-items: center;
-  
 }
 
+#subs{
+  position: fixed;
+  z-index: 2;
+  bottom: 0%;
+  width: 100%;
+}
+
+#subs a{
+  background-color: #4d22ff;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: "Muli";
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+}
+
+
+
 /* ~~~~~~ MAIN ~~~~~~ */
-
-
-
 /*  "stat"  */
 
-.stat{
+#stat{
   background-color: #2b345d;
   display: flex;
   flex-direction: column;
@@ -207,19 +224,19 @@ h1{
   padding: 50px 0;
 }
 
-.stat div p{
+#stat div p{
   margin:0 0 10px 0;
   font-family: "Gotham Black Regular";
 
 }
 
-.stat div p:first-child{
+#stat div p:first-child{
   color: #fff;
   font-size: 36px;
   
 }
 
-.stat div p:last-of-type{
+#stat div p:last-of-type{
   color: #2fd;
   font-size: 20px;
   text-align: center;
@@ -227,49 +244,45 @@ h1{
 
 /*  "algo"  */
 
-.algo{
+#algo{
   color: #162049;
   background-color: #eee9fa;
   padding:0 15px;
 
 }
 
-.algo header{
+#algo header{
   text-align: center;
 }
 
-.algo header h2{
+#algo header h2{
   font-size: 36px;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 30px;
   line-height: 1.1;
 }
-.algo header p{
+#algo header p{
   font-size: 26px;
   margin: 20px 0;
   line-height: 1.1em;
   letter-spacing: -0.01em;
 }
 
-.algo img{
+#algo img{
   width: 250px;
 }
-.algo figure{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.algo h3{
+
+#algo h3{
   text-align: center;
   font-size: 18px;
 }
 
-.skill h3{
+#skill h3{
   margin-bottom: 0;
 }
 
-.skill p{
+#skill p{
   font-size: 18px;
   padding: 0 40px;
   text-align: justify;
@@ -277,84 +290,92 @@ h1{
   
 }
 
-.skillBtn a{
+#skillBtn a{
  font-size: 20px;
 }
 
-.skillBtn{
+#skillBtn{
   text-align: center;
   padding: 30px 0;
 }
 
 /*  "jobs"  */
 
-.jobs{
+#jobs{
   padding: 0 15px;
 }
 
-.jobs header h2{
+#jobs header h2{
   font-size: 36px;
   text-align: center;
   line-height:39.6px;
   margin: 40px 0px 10px 0;
 }
 
-.jobs header p{
+#jobs header p{
   font-size: 26px;
   text-align: center;
   line-height: 37.15px;
   margin:0 0 20px;
 }
 
-.allJobs img{
+#allJobs img{
 width: 200px;
 }
 
-.allJobs{
+#allJobs{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-
-.allJobs a{
-  text-decoration: none;
-}
-
-.allJobs a p{
+#allJobs a p{
   text-align: center;
   font-size: 18px;
   font-family: "Gotham Black Regular";
   color: #162049;
 }
 
-.poSjobsBtn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.jobsBtn{
+#jobsBtn{
   font-size: 20px;
   margin: 30px 0;
 }
 
 
 /*  "salary"  */
+#salary{
 
-.salary{
-  background-color: #eeeeee;
-  margin: 30px;
-  padding: 30px 15px;
-  color: #162049;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+#card{
+  background-color: #eeeeee;
+  color: #162049;
+  padding: 30px 20px;
+  width: 83%;
+  margin-bottom: 20%;
+}
 
+#card h2{
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0 0 40px;
+}
 
+#card h3{
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+#card p{
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+#cardBtn{
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
 
 
 /* ==========================================================================
