@@ -26,31 +26,31 @@
 <body>
 
   <!-- Add your site or application content here -->
-<div id="viewPort">
-  <nav class="flex-Jc-Ac">
-    <a id="menuSmartphoneTablet" href="#">
-      <img src="img/burger-menu.svg" alt="Icone menu">
-    </a>
-    <figure >
-      <img id="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
-    </figure>
-  </nav>
-  <header id="topSite">
-    <hr>
+<nav class="flex-Jc-Ac">
+  <a id="menuSmartphoneTablet" href="#">
+    <img src="img/burger-menu.svg" alt="Icone menu">
+  </a>
+  <figure >
+    <img id="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
+  </figure>
+</nav>
+<header id="topSite">
+  <hr>
+  <div id="articlePos">
     <article>
-      <h1>Le matching parfait est aussi professionnel</h1>
-      <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
-      <div id="headerBtn" >
-        <a class="btn" href="#">Je m'inscris</a>
-      </div>
-    </article>
-    <div id="subs">
-        <a href="#">JE M'INSCRIS</a>
+    <h1>Le matching parfait est aussi professionnel</h1>
+    <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
+    <div id="headerBtn" >
+      <a class="btn" href="#">Je m'inscris</a>
     </div>
-  </header>
+  </article>
 </div>
+  <div id="singIn">
+      <a href="#">JE M'INSCRIS</a>
+  </div>
+</header>
 <main>
-  <section id="stat">
+  <div id="stat">
     <div>
       <p>152 000</p>
       <p>Candidats</p>
@@ -63,28 +63,30 @@
       <p>13 300</p>
       <p>Recruteurs</p>
     </div>
-  </section>
+  </div>
   <section id="algo">
     <header>
       <h2>L'algorithme travaille pour toi</h2>
       <p>Accède à des matchings personnalisés tout en restant protégé et anonyme</p>
     </header>
     <div id="skill">
-      <div>
-        <figure class="flex-Jc-Ac">
-          <img src="img/personnalisation.png" alt="Illustration section texte personnalisation, représentant un robot et la lettre A avec un désign graphique.">
-        </figure>
-        <h3>Personnalisation</h3>
-        <p>Notre algorithme de matching sélectionne pour toi les projets qui te correspondent vraiment.</p>
+      <div id="twoSkill">
+        <div class="oneSkill">
+          <figure class="flex-Jc-Ac">
+            <img src="img/personnalisation.png" alt="Illustration section texte personnalisation, représentant un robot et la lettre A avec un désign graphique.">
+          </figure>
+          <h3>Personnalisation</h3>
+          <p>Notre algorithme de matching sélectionne pour toi les projets qui te correspondent vraiment.</p>
+        </div>
+        <div class="oneSkill">
+          <figure class="flex-Jc-Ac">
+            <img src="img/3en1.png" alt="Illustration section texte 3 en 1. Représentation simpliste d'un bonhomme avec dans les bras une pancarte avec un coeur dessus.">
+          </figure>
+          <h3>3 en 1</h3>
+          <p>Tu as le pouvoir d'accepter les matchings, les demandes directes ou postuler directement aux offres qui te plaisent.</p>
+        </div>
       </div>
-      <div>
-        <figure class="flex-Jc-Ac">
-          <img src="img/3en1.png" alt="Illustration section texte 3 en 1. Représentation simpliste d'un bonhomme avec dans les bras une pancarte avec un coeur dessus.">
-        </figure>
-        <h3>3 en 1</h3>
-        <p>Tu as le pouvoir d'accepter les matchings, les demandes directes ou postuler directement aux offres qui te plaisent.</p>
-      </div>
-      <div>
+      <div class="oneSkill">
         <figure class="flex-Jc-Ac">
           <img src="img/anonymat.png" alt="Illustration section texte Anonymat. Représentation d'un oeil avec une loupe et des graphiques à côté.">
         </figure>
@@ -128,7 +130,7 @@
       </a>
       <a href="#">
         <figure>
-          <img src="img/creation.svg" alt="Illustration lien cliquable: Création. Représentation d'un cadre avec un ">
+          <img src="img/creation.svg" alt="Illustration lien cliquable: Création. Représentation d'un cadre avec un crayon dessinant dedans et la lettre A avec un désign graphique">
         </figure>
         <p>Création</p>
       </a>
@@ -139,11 +141,18 @@
   </section>
   <section id="salary" class="flex-Jc-Ac" >
     <div id="card">
-      <h2>Mérites-tu un meilleur salaire ?</h2>
-      <h3>Baromètre des salaires IT</h3>
-      <p>Découvre le salaire des différents métiers informatiques et numériques par niveau d'expérience et localisation.</p>
-      <div class="flex-Jc-Ac">
-        <a class="btn" id="cardBtn" href="#">Je découvre mon salaire</a>
+      <div id="cardText">
+        <h2>Mérites-tu un meilleur salaire ?</h2>
+        <h3>Baromètre des salaires IT</h3>
+        <p>Découvre le salaire des différents métiers informatiques et numériques par niveau d'expérience et localisation.</p>
+        <div id="cardBtnPos">
+          <a class="btn" id="cardBtn" href="#">Je découvre mon salaire</a>
+        </div>
+      </div>
+      <div id="cardImg" >
+        <figure class="flex-Jc-Ac">
+          <img src="/img/salaire.svg" alt="Illustration, représentant une pièce de monnaie avec un $ dedans">
+        </figure>
       </div>
     </div>
   </section>
