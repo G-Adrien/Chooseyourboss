@@ -397,10 +397,11 @@ width: 200px;
 
 #cardImg{
   display: none;
+
 }
 #cardImg img{
   width: 300px;
-  /* max-width: 300px; */
+  
 }
 
 /* ###################### "media-query"######################  */
@@ -447,9 +448,10 @@ width: 200px;
     align-items: center;
   }
   #twoSkill{
-
     max-width: 750px;
-    
+  }
+  #card{
+    width: 625px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -468,9 +470,17 @@ width: 200px;
     display: block;
   }
   
-  #salary{
+  #card{
     display: flex;
+    width: 808px;
   }
+  #card>div{
+    width: 50%;
+  }
+  #cardText{
+    padding: 0 40px;
+  }
+
 }
 
 
@@ -484,6 +494,9 @@ width: 200px;
   }
   .oneSkill{
     max-width: 380px;
+  }
+  #card{
+    width: 975px;
   }
 }
 
