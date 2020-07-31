@@ -134,6 +134,10 @@ a{
 .btn:hover{
   opacity: 0.5;
 }
+
+figure
+{margin: 0;
+}
 /* ~~~~~~ NAV ~~~~~~ */
 
 nav{
@@ -262,7 +266,7 @@ h1{
   font-size: 36px;
   margin-top: 0;
   margin-bottom: 10px;
-  margin-top: 40px;
+  padding-top: 40px;
   line-height: 1.1;
 }
 #algo header p{
@@ -281,6 +285,7 @@ h1{
   text-align: center;
   font-size: 18px;
 }
+
 
 
 #skill h3{
@@ -383,14 +388,12 @@ width: 200px;
   margin: 20px 0 10px;
 }
 
+
+
 /* ###################### "media-query"######################  */
 
 @media screen and (min-width: 530px) {
-  #skill{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+  
   #twoSkill{
     display: flex;
     justify-content: center;
@@ -398,12 +401,17 @@ width: 200px;
   #twoSkill div{
     width: 50vw;
   }
- 
+
   #skill div:last-child{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  #skill{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -418,24 +426,31 @@ width: 200px;
   }
   #stat div{
     padding: 0 15px;
+
   }
-  
+  #skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #twoSkill{
+
+    max-width: 750px;
+    
+  }
 }
 @media screen and (min-width: 992px) {
   #stat div p{
     width: 290px;
   }
+
   #skill{
-    display:flex;
-    justify-content: center;
+    flex-direction: row;
   }
-  #skill div{
-    /* width: 313px; */
+  .oneSkill{
+    max-width: 313px;
   }
   
-  #skill div:last-of-type{
-    
-  }
 }
 
 
@@ -447,12 +462,9 @@ width: 200px;
   #stat div p{
     width: 356px;
   }
-  #skill{
-    justify-content: center;
-    }
-  #skill div{
+  .oneSkill{
     max-width: 380px;
-    }
+  }
 }
 
 
