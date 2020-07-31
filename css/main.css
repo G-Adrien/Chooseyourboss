@@ -262,7 +262,7 @@ h1{
   font-size: 36px;
   margin-top: 0;
   margin-bottom: 10px;
-  padding-top: 30px;
+  margin-top: 40px;
   line-height: 1.1;
 }
 #algo header p{
@@ -274,12 +274,14 @@ h1{
 
 #algo img{
   width: 250px;
+  min-width: 250px;
 }
 
 #algo h3{
   text-align: center;
   font-size: 18px;
 }
+
 
 #skill h3{
   margin-bottom: 0;
@@ -301,6 +303,7 @@ h1{
   text-align: center;
   padding: 30px 0;
 }
+
 
 /*  "jobs"  */
 
@@ -385,18 +388,25 @@ width: 200px;
 @media screen and (min-width: 530px) {
   #skill{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
   }
-  #skill img{
-    min-width: 250px;
+  #twoSkill{
+    display: flex;
+    justify-content: center;
   }
-  #skill div{
-    width: 50%;
+  #twoSkill div{
+    width: 50vw;
   }
-  #skill div:last-of-type{
-    width: 100%;
+ 
+  #skill div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
+
 
 @media screen and (min-width: 768px) {
   #stat{
@@ -409,16 +419,22 @@ width: 200px;
   #stat div{
     padding: 0 15px;
   }
+  
 }
 @media screen and (min-width: 992px) {
   #stat div p{
     width: 290px;
   }
-  #skill div{
-  width: 33%;
+  #skill{
+    display:flex;
+    justify-content: center;
   }
+  #skill div{
+    /* width: 313px; */
+  }
+  
   #skill div:last-of-type{
-    width: 33%;
+    
   }
 }
 
