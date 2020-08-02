@@ -88,15 +88,15 @@ textarea {
    ========================================================================== */
 
 
-   /* ~~~~~~~~~~ General rules ~~~~~~~~~~~ */
+/* ~~~~~~~~~~ General rules ~~~~~~~~~~~ */
    
-   @font-face { font-family: 'Gotham Black Regular';
-     src: url('../font/Gotham\ Black\ Regular.ttf');
-     }
+@font-face { font-family: 'Gotham Black Regular';
+ src: url('../font/Gotham\ Black\ Regular.ttf');
+}
 
-   @font-face { font-family: 'Muli';
-    src: url('../font/Muli.ttf');
-    }
+@font-face { font-family: 'Muli';
+src: url('../font/Muli.ttf');
+}
 
 body{
  background-image: url(../img/fond.png);
@@ -122,7 +122,7 @@ h1, h2, h3, h4{
 a{
   text-decoration: none;
 }
-
+/* Class for all buton */
 .btn{
   background-color: #4D22FF;
   color: white;
@@ -225,7 +225,6 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 #articleImg{
@@ -258,8 +257,6 @@ h1{
   margin: 0;
   font-size: 20px;
 }
-
-
 
 /* ~~~~~~ MAIN ~~~~~~ */
 /*  "stat"  */
@@ -325,8 +322,6 @@ h1{
   text-align: center;
   font-size: 18px;
 }
-
-
 
 #skill h3{
   margin-bottom: 0;
@@ -442,6 +437,8 @@ width: 200px;
 
 /* ###################### "media-query"######################  */
 
+/* Smartphone */
+
 @media screen and (min-width: 530px) {
   
   #twoSkill{
@@ -465,6 +462,7 @@ width: 200px;
   }
 }
 
+  /* Tablet */
 
 @media screen and (min-width: 768px) {
   #stat{
@@ -490,6 +488,8 @@ width: 200px;
     width: 625px;
   }
 }
+
+/* Large tablet */
 
 @media screen and (min-width: 992px) {
   #articlePos{
@@ -524,7 +524,7 @@ width: 200px;
 
 }
 
-
+/* Computeur */
 
 @media screen and (min-width: 1200px) {
   #menuSmartphoneTablet{
