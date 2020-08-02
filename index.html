@@ -22,35 +22,50 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet"> 
   <meta name="theme-color" content="#fafafa">
 </head>
-
 <body>
-
   <!-- Add your site or application content here -->
-<nav class="flex-Jc-Ac">
+<nav>
   <a id="menuSmartphoneTablet" href="#">
     <img src="img/burger-menu.svg" alt="Icone menu">
   </a>
-  <figure >
-    <img id="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
-  </figure>
+  <a id="logoLink" href="#">
+    <figure >
+      <img id="logo" src="img/logo.svg" alt="Logo du site ChooseYourBoss">
+    </figure>
+  </a>
+  <ul>
+    <li><a href="#">Offres</a></li>
+    <li><a href="#">Entreprises</a></li>
+    <li><a href="#">Salaires</a></li>
+    <li><a href="#">Évènements</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Connexion</a></li>
+    <li><a class="btn" id="navBtn" href="#">Inscription</a></li>
+    <li><a href="#">Vous êtes recruteur</a></li>
+  </ul>
 </nav>
 <header id="topSite">
   <hr>
-  <div id="articlePos">
-    <article>
-    <h1>Le matching parfait est aussi professionnel</h1>
-    <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
-    <div id="headerBtn" >
-      <a class="btn" href="#">Je m'inscris</a>
+  <div id="realHeader">
+    <article id="articlePos">
+      <h1>Le matching parfait est aussi professionnel</h1>
+      <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine squad !</p>
+      <div id="headerBtn" >
+        <a class="btn" href="#">Je m'inscris</a>
+      </div>
+    </article>
+    <div id="articleImg">
+      <figure>
+        <img src="img/man.png" alt="Photo d'homme souriant">
+      </figure>
     </div>
-  </article>
-</div>
+  </div>
   <div id="singIn">
-      <a href="#">JE M'INSCRIS</a>
+    <a href="#">JE M'INSCRIS</a>
   </div>
 </header>
 <main>
-  <div id="stat">
+  <section id="stat">
     <div>
       <p>152 000</p>
       <p>Candidats</p>
@@ -63,7 +78,7 @@
       <p>13 300</p>
       <p>Recruteurs</p>
     </div>
-  </div>
+  </section>
   <section id="algo">
     <header>
       <h2>L'algorithme travaille pour toi</h2>
@@ -157,20 +172,16 @@
     </div>
   </section>
 </main>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-
-
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
